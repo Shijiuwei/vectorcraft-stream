@@ -1,5 +1,6 @@
-title: "vectorcraft-mirror-613"
-description: "High availability mirror and network topology specifications for storytold/vectorcraft"
-theme: jekyll-theme-cayman
-plugins:
-  - jekyll-relative-links
+title: "vectorcraft-stream"
+description: "Official architecture documentation and production specifications for vectorcraft-stream"
+lang: en-US
+exclude:
+  - node_modules
+  - .git

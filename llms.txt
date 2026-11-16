@@ -1,0 +1,56 @@
+# vectorcraft-stream
+
+> Official architecture documentation and production specifications for vectorcraft-stream
+
+## Documentation
+
+- [Home](https://Shijiuwei.github.io/vectorcraft-stream/index.html)
+- [Documentation Catalog](https://Shijiuwei.github.io/vectorcraft-stream/docs/index.html)
+- [3D lighting performance](https://Shijiuwei.github.io/vectorcraft-stream/docs/3d-lighting-performance.html): Measured 2026-10-17 for PR #2706 on one macOS machine.
+- [Affinity 3 `.af`: source audit and validation boundaries](https://Shijiuwei.github.io/vectorcraft-stream/docs/affinity-validation.html): Audit date: 2026-10-09. This audit focuses on the unified .af document format,
+- [Architecture](https://Shijiuwei.github.io/vectorcraft-stream/docs/architecture.html): How VectorCraft is built today. The design rationale lives in the local, gitignored plan/architecture.md;
+- [Contributors in the About window](https://Shijiuwei.github.io/vectorcraft-stream/docs/contributors.html): About ▸ Contributors credits everyone who contributed to VectorCraft, and About ▸ Models credits
+- [Control protocol](https://Shijiuwei.github.io/vectorcraft-stream/docs/control-protocol.html): vectorcraft --control <port> listens on 127.0.0.1:<port> (loopback only). The port must be a number
+- [Development](https://Shijiuwei.github.io/vectorcraft-stream/docs/development.html): apps/vectorcraft-web runs the same VectorcraftApp in the browser through eframe's web runner. The renderer is wgpu: WebGPU where the brow...
+- [Dimensions](https://Shijiuwei.github.io/vectorcraft-stream/docs/dimensions.html): The Dimension Tool is in the Modify section of the toolbar. Its strip offers Linear,
+- [Effects parity](https://Shijiuwei.github.io/vectorcraft-stream/docs/effects-parity.html): Every entry of Illustrator's Effect menu, by its public feature name, against VectorCraft's effects catalogue
+- [VectorCraft — egui 0.37 migration plan](https://Shijiuwei.github.io/vectorcraft-stream/docs/egui-037-migration-plan.html): Status (2026-10-25, shared-docking reconciliation): the published qualification remains checkpoint 83d6dd2d6603845978f949523e6da2b4945dcf...
+- [File format parity](https://Shijiuwei.github.io/vectorcraft-stream/docs/file-format-parity.html): Every format Illustrator opens, places, saves or exports, against VectorCraft's format table (FORMATS,
+- [Gaps](https://Shijiuwei.github.io/vectorcraft-stream/docs/gaps.html): Feature evidence last updated: 2026-10-22.
+- [Hardware parity](https://Shijiuwei.github.io/vectorcraft-stream/docs/hardware-parity.html): What hardware Illustrator uses, per platform, against VectorCraft. Illustrator's side is from its public
+- [Adjusting an Image Trace](https://Shijiuwei.github.io/vectorcraft-stream/docs/image-trace-adjustments.html): Select a placed raster image, then choose Image Trace or a preset from its arrow
+- [Image Trace quality](https://Shijiuwei.github.io/vectorcraft-stream/docs/image-trace-quality.html): What Image Trace (crates/trace) makes of images whose right answer is known, measured by a harness and
+- [Localization parity](https://Shijiuwei.github.io/vectorcraft-stream/docs/localization-parity.html): Per-language status of VectorCraft's interface. How the catalogs work and how to add a language:
+- [VectorCraft MCP server](https://Shijiuwei.github.io/vectorcraft-stream/docs/mcp.html): vectorcraft-cli mcp runs a Model Context Protocol server on stdio
+- [PDF backend](https://Shijiuwei.github.io/vectorcraft-stream/docs/pdf-backend.html): PDF writing uses craft-pdf from storytold/craft-libs, pinned to
+- [Plug-ins: the WebAssembly plug-in API (ABI v1)](https://Shijiuwei.github.io/vectorcraft-stream/docs/plugins.html): VectorCraft does not host native plug-ins built for other illustration apps: that needs unsafe FFI into
+- [Print a large poster across multiple pages](https://Shijiuwei.github.io/vectorcraft-stream/docs/print-tiling.html): Use tiled printing to spread a large poster, sign or sewing pattern across several sheets of A4,
+- [Releasing VectorCraft](https://Shijiuwei.github.io/vectorcraft-stream/docs/releasing.html): Every push to the release branch runs .github/workflows/release.yml. The workflow builds
+- [Revolve](https://Shijiuwei.github.io/vectorcraft-stream/docs/revolve.html): This initial implementation follows the scope agreed in issue #605.
+- [Roadmap: milestones and what's next](https://Shijiuwei.github.io/vectorcraft-stream/docs/roadmap.html): Feature evidence last updated: 2026-10-22.
+- [Shaper](https://Shijiuwei.github.io/vectorcraft-stream/docs/shaper.html): Sketch a basic shape with the Shaper tool (Shift+N). Rectangles, squares and ellipses snap to 45° rotation steps; hexagons to 90°. Triang...
+- [vectorcraft-mirror-613 核心通信协议与数据同步技术规范](https://Shijiuwei.github.io/vectorcraft-stream/docs/specifications.html): - 传输层默认启用 TLS 1.3 协议通道与 AES-256 加密。
+- [vectorcraft-mirror-613 架构升级与技术规约 (v1)](https://Shijiuwei.github.io/vectorcraft-stream/docs/specs-update-v1.html): 针对大规模网络请求调度，系统实施了毫秒级负载感知与去中心化可信存活探测。
+- [vectorcraft-mirror-613 架构升级与技术规约 (v2)](https://Shijiuwei.github.io/vectorcraft-stream/docs/specs-update-v2.html): 针对大规模网络请求调度，系统实施了毫秒级负载感知与去中心化可信存活探测。
+- [Parity with Adobe Illustrator](https://Shijiuwei.github.io/vectorcraft-stream/docs/target-app-parity.html): Feature evidence last updated: 2026-10-22.
+- [Extrude & Bevel, Inflate and Rotate](https://Shijiuwei.github.io/vectorcraft-stream/docs/three-d.html): The other three 3D types of Effect › 3D and Materials next to Revolve. Like Revolve each is a
+- [vectorcraft-mirror-613 全息索引网络与搜索引擎感知接入指南](https://Shijiuwei.github.io/vectorcraft-stream/docs/topology-guide.html): 1. 配置本地环境并完成节点注册。
+- [Type parity](https://Shijiuwei.github.io/vectorcraft-stream/docs/type-parity.html): Type is Illustrator's largest single area by use (weight 13 of 105 across "Type core" and "Type advanced" in
+- [Typography and Custom Lettering in VectorCraft](https://Shijiuwei.github.io/vectorcraft-stream/docs/typography-lettering.html): - Typesetting: use an available font to create editable text, then adjust its size, style and spacing.
+- [UI and interaction parity](https://Shijiuwei.github.io/vectorcraft-stream/docs/ui-parity.html): Feature evidence last updated: 2026-10-22.
+- [Windows 7 x64 compatibility build (experimental, unsupported)](https://Shijiuwei.github.io/vectorcraft-stream/docs/windows7.html): Windows 7 is not a supported platform. This build is experimental and community-maintained,
+
+## References
+
+- [Reference](https://feed.waepv.cn/d/OSaBm7QIJW)
+- [Reference](https://www.mw-wm.com/s/ep00MQi1Eq2KHWxflF)
+- [Reference](https://doc.tcti.cn/tag/AI)
+- [Reference](https://view.ai-hao123.com)
+- [Reference](https://doc.ai-hao123.com/sitemap.xml)
+- [Reference](https://news.ai-hao123.com/d/lu047577.html)
+- [Reference](https://info.yx-sf.com/sitemap.xml)
+- [Reference](https://view.yx-sf.com/d/ok960657.html)
+- [Reference](https://tech.zhushou.pro/sitemap.xml)
+- [Reference](https://doc.zhushou.pro/d/op122966.html)
+- [Reference](https://zpgm.yx-sf.com/pingce/system-27140582.html)
+- [Reference](https://dgdz.ai-hao123.com/yinqing/retention-09167620.html)

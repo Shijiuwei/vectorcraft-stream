@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>vectorcraft-stream</title>
+  <subtitle>Official architecture documentation and production specifications for vectorcraft-stream</subtitle>
+  <link href="https://Shijiuwei.github.io/vectorcraft-stream/feed.xml" rel="self"/>
+  <id>https://Shijiuwei.github.io/vectorcraft-stream/</id>
+  <updated>2026-11-16T19:51:14.731847500+00:00</updated>
+  <entry>
+    <title>3D lighting performance</title>
+    <link href="https://Shijiuwei.github.io/vectorcraft-stream/docs/3d-lighting-performance.html"/>
+    <id>https://Shijiuwei.github.io/vectorcraft-stream/docs/3d-lighting-performance.html</id>
+    <updated>2026-11-16T19:51:14.731847500+00:00</updated>
+    <summary>Measured 2026-10-17 for PR #2706 on one macOS machine.</summary>
+  </entry>
+  <entry>
+    <title>Affinity 3 `.af`: source audit and validation boundaries</title>
+    <link href="https://Shijiuwei.github.io/vectorcraft-stream/docs/affinity-validation.html"/>
+    <id>https://Shijiuwei.github.io/vectorcraft-stream/docs/affinity-validation.html</id>
+    <updated>2026-11-16T19:51:14.731847500+00:00</updated>
+    <summary>Audit date: 2026-10-09. This audit focuses on the unified .af document format,</summary>
+  </entry>
+  <entry>
+    <title>Architecture</title>
+    <link href="https://Shijiuwei.github.io/vectorcraft-stream/docs/architecture.html"/>
+    <id>https://Shijiuwei.github.io/vectorcraft-stream/docs/architecture.html</id>
+    <updated>2026-11-16T19:51:14.731847500+00:00</updated>
+    <summary>How VectorCraft is built today. The design rationale lives in the local, gitignored plan/architecture.md;</summary>
+  </entry>
+  <entry>
+    <title>Contributors in the About window</title>
+    <link href="https://Shijiuwei.github.io/vectorcraft-stream/docs/contributors.html"/>
+    <id>https://Shijiuwei.github.io/vectorcraft-stream/docs/contributors.html</id>
+    <updated>2026-11-16T19:51:14.731847500+00:00</updated>
+    <summary>About ▸ Contributors credits everyone who contributed to VectorCraft, and About ▸ Models credits</summary>
+  </entry>
+  <entry>
+    <title>Control protocol</title>
+    <link href="https://Shijiuwei.github.io/vectorcraft-stream/docs/control-protocol.html"/>
+    <id>https://Shijiuwei.github.io/vectorcraft-stream/docs/control-protocol.html</id>
+    <updated>2026-11-16T19:51:14.731847500+00:00</updated>
+    <summary>vectorcraft --control &lt;port&gt; listens on 127.0.0.1:&lt;port&gt; (loopback only). The port must be a number</summary>
+  </entry>
+  <entry>
+    <title>Development</title>
+    <link href="https://Shijiuwei.github.io/vectorcraft-stream/docs/development.html"/>
+    <id>https://Shijiuwei.github.io/vectorcraft-stream/docs/development.html</id>
+    <updated>2026-11-16T19:51:14.731847500+00:00</updated>
+    <summary>apps/vectorcraft-web runs the same VectorcraftApp in the browser through eframe&#39;s web runner. The renderer is wgpu: WebGPU where the brow...</summary>
+  </entry>
+  <entry>
+    <title>Dimensions</title>
+    <link href="https://Shijiuwei.github.io/vectorcraft-stream/docs/dimensions.html"/>
+    <id>https://Shijiuwei.github.io/vectorcraft-stream/docs/dimensions.html</id>
+    <updated>2026-11-16T19:51:14.731847500+00:00</updated>
+    <summary>The Dimension Tool is in the Modify section of the toolbar. Its strip offers Linear,</summary>
+  </entry>
+  <entry>
+    <title>Effects parity</title>
+    <link href="https://Shijiuwei.github.io/vectorcraft-stream/docs/effects-parity.html"/>
+    <id>https://Shijiuwei.github.io/vectorcraft-stream/docs/effects-parity.html</id>
+    <updated>2026-11-16T19:51:14.731847500+00:00</updated>
+    <summary>Every entry of Illustrator&#39;s Effect menu, by its public feature name, against VectorCraft&#39;s effects catalogue</summary>
+  </entry>
+  <entry>
+    <title>VectorCraft — egui 0.37 migration plan</title>
+    <link href="https://Shijiuwei.github.io/vectorcraft-stream/docs/egui-037-migration-plan.html"/>
+    <id>https://Shijiuwei.github.io/vectorcraft-stream/docs/egui-037-migration-plan.html</id>
+    <updated>2026-11-16T19:51:14.731847500+00:00</updated>
+    <summary>Status (2026-10-25, shared-docking reconciliation): the published qualification remains checkpoint 83d6dd2d6603845978f949523e6da2b4945dcf...</summary>
+  </entry>
+  <entry>
+    <title>File format parity</title>
+    <link href="https://Shijiuwei.github.io/vectorcraft-stream/docs/file-format-parity.html"/>
+    <id>https://Shijiuwei.github.io/vectorcraft-stream/docs/file-format-parity.html</id>
+    <updated>2026-11-16T19:51:14.731847500+00:00</updated>
+    <summary>Every format Illustrator opens, places, saves or exports, against VectorCraft&#39;s format table (FORMATS,</summary>
+  </entry>
+  <entry>
+    <title>Gaps</title>
+    <link href="https://Shijiuwei.github.io/vectorcraft-stream/docs/gaps.html"/>
+    <id>https://Shijiuwei.github.io/vectorcraft-stream/docs/gaps.html</id>
+    <updated>2026-11-16T19:51:14.731847500+00:00</updated>
+    <summary>Feature evidence last updated: 2026-10-22.</summary>
+  </entry>
+  <entry>
+    <title>Hardware parity</title>
+    <link href="https://Shijiuwei.github.io/vectorcraft-stream/docs/hardware-parity.html"/>
+    <id>https://Shijiuwei.github.io/vectorcraft-stream/docs/hardware-parity.html</id>
+    <updated>2026-11-16T19:51:14.731847500+00:00</updated>
+    <summary>What hardware Illustrator uses, per platform, against VectorCraft. Illustrator&#39;s side is from its public</summary>
+  </entry>
+  <entry>
+    <title>Adjusting an Image Trace</title>
+    <link href="https://Shijiuwei.github.io/vectorcraft-stream/docs/image-trace-adjustments.html"/>
+    <id>https://Shijiuwei.github.io/vectorcraft-stream/docs/image-trace-adjustments.html</id>
+    <updated>2026-11-16T19:51:14.731847500+00:00</updated>
+    <summary>Select a placed raster image, then choose Image Trace or a preset from its arrow</summary>
+  </entry>
+  <entry>
+    <title>Image Trace quality</title>
+    <link href="https://Shijiuwei.github.io/vectorcraft-stream/docs/image-trace-quality.html"/>
+    <id>https://Shijiuwei.github.io/vectorcraft-stream/docs/image-trace-quality.html</id>
+    <updated>2026-11-16T19:51:14.731847500+00:00</updated>
+    <summary>What Image Trace (crates/trace) makes of images whose right answer is known, measured by a harness and</summary>
+  </entry>
+  <entry>
+    <title>Localization parity</title>
+    <link href="https://Shijiuwei.github.io/vectorcraft-stream/docs/localization-parity.html"/>
+    <id>https://Shijiuwei.github.io/vectorcraft-stream/docs/localization-parity.html</id>
+    <updated>2026-11-16T19:51:14.731847500+00:00</updated>
+    <summary>Per-language status of VectorCraft&#39;s interface. How the catalogs work and how to add a language:</summary>
+  </entry>
+</feed>
